@@ -1,0 +1,31 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="workController.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="whitelist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">google.com,microsoft.com</Value>
+    </Setting>
+    <Setting Name="blocktimes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">06:00:00-08:59:59,09:20:59-11:59:59,12:30:59-16:00:00</Value>
+    </Setting>
+    <Setting Name="blockedmsg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;html&gt;
+&lt;body&gt;
+&lt;h1&gt;Website Blocked&lt;/h1&gt;
+
+&lt;p&gt;This website cannot be visited during work hours.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</Value>
+    </Setting>
+    <Setting Name="port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8000</Value>
+    </Setting>
+    <Setting Name="startMinimized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="toSystemTray" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
