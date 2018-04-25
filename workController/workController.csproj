@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Titanium.Web.Proxy, Version=1.0.1.0, Culture=neutral, PublicKeyToken=8e41e1f1c790d7cf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Titanium.Web.Proxy.dll</HintPath>
+      <HintPath>..\Titanium.Web.Proxy.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

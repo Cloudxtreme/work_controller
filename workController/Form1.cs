@@ -167,10 +167,7 @@ namespace workController
 
                 if (!skip)
                 {
-                    if (!File.Exists("blocked.html"))
-                        e.Ok("<h1>Website Blocked</h1>Break time is up, back to work.</p>");
-                    else
-                        e.Ok(File.ReadAllText("blocked.html"));
+                    e.Ok(Properties.Settings.Default.blockedmsg);
                     AppndText("Website content from " + e.WebSession.Request.RequestUri.AbsoluteUri + " is not on whitelist",Color.Black);
                 }
             }
